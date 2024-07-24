@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Create the Navbar  -->
+      <nav>
+        <ul class="navbar">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--  Create the Sections -->
+    <section id="about">
+      <div class="content">
+        <div>
+          <img src="./assets/Screenshot_1.png" alt="my image" / height="350px" >
+        </div>
+        <div class="details">
+          <h4>ABOUT ME</h4>
+          <h1>PERSONAL DETAILS</h1>
+          <p>
+            Here, I focus on a range of items and features that we use in life
+            without giving them a second thought. such as Coca Cola. Dolor sit
+            amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco.
+          </p>
+          <button>VIEW FULL DETAILS</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <h2>MY LATEST FEATURED PROJECTS</h2>
+      <div class="working">
+        <div class="work-item1">
+          <img
+            src="./assets/original-508f24ff5f527a0c6801c2c1a4431c54.jpg"
+            alt="project1 image"
+            height="300px"
+          />
+          <h3>Podcast Mobile App</h3>
+          <p>
+            <b>this project is about :</b> Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Architecto iste impedit eaque
+            distinctio cumque labore corrupti nam totam inventore amet
+            accusantium rerum, fuga quidem, ex tempore possimus reiciendis,
+            eligendi nulla!
+          </p>
+          <a href="link-to-project">View More Details</a>
+        </div>
+        <div class="work-item2">
+          <img
+            src="./assets/original-f6aa71c9cba938fa7fd85beb3caf1b0d.jpg"
+            alt="Project2 image"
+            height="300px"
+          />
+          <h3>Login & Sign up - Dark Mode | UI/UX Design</h3>
+          <p>
+            <b>this project is about :</b> Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Architecto iste impedit eaque
+            distinctio cumque labore corrupti nam totam inventore amet
+            accusantium rerum, fuga quidem, ex tempore possimus reiciendis,
+            eligendi nulla!
+          </p>
+          <a href="link-to-project">View More Details</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <div class="contact">
+        <div class="get-in-touch">
+          <h3>Get In Touch</h3>
+          <form action="submit-form-url" method="post">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+            />
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Write a Message"
+            ></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+
+        <div class="my-contact-details">
+          <h3>My Contact Details</h3>
+          <h4>EMAIL</h4>
+          <p>site@gmail.com</p>
+          <h4>PHONE</h4>
+          <p>+30 976 1382 9921</p>
+          <h4>ADRESSE</h4>
+          <p>San Francisco, CA 4th Floor8 Lower San Francisco street, M1 50F</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- working with semantic tags -->
+    <footer>
+      <p>&copy; 2024 Saddedine Tahar Amine. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
